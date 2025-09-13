@@ -1,0 +1,38 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+npm-debug.log*
+
+# OneDrive
+**/OneDrive/**
+
+# Local env
+.env
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+# Misc
+coverage/

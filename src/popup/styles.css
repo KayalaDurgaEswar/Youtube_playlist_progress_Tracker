@@ -1,0 +1,49 @@
+:root {
+  --bg: #fff;
+  --muted: #6b7280;
+  --accent: #ff3b3b;
+}
+
+body, .popup-root {
+  font-family: Inter, Arial, sans-serif;
+  width: 280px;
+  padding: 14px;
+  background: var(--bg);
+  color: #111827;
+  box-sizing: border-box;
+}
+
+h3 { margin: 0 0 10px 0; font-size: 16px; }
+.small { font-size: 11px; }
+.muted { color: var(--muted); margin: 8px 0; }
+
+.progress-wrap {
+  width: 100%;
+  background: #f3f4f6;
+  height: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--accent);
+  width: 0%;
+  transition: width 300ms ease;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn:hover { opacity: 0.9; }
+footer { margin-top: 12px; }
+
